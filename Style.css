@@ -1,0 +1,166 @@
+/*<!-- CUSTOM CSS -->*/
+
+        body {
+            background: #f4f4f4;
+            font-family: 'Roboto', sans-serif;
+
+        }
+        /* Hero Section */
+.hero-section {
+    background: linear-gradient(135deg, #6a5acd, #483d8b);
+    padding: 120px 0 80px;
+    color: white;
+}
+
+/* Hero Image */
+.hero-img {
+    width: 260px;
+    height: 260px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid white;
+    transition: 0.3s ease;
+}
+
+/* Hover effect */
+.hero-img:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 10px 25px rgba(0,0,0,0.3);
+}
+
+
+        /* Projects Section */
+#projects {
+    margin-top: 30px;
+}
+
+/* Project Section Title */
+.section-title {
+    border-left: 5px solid #6a5acd;
+    padding-left: 10px;
+    margin-bottom: 25px;
+    font-weight: bold;
+    color: #222;
+}
+
+/* Project Cards */
+#projects .card {
+    border: none;
+    border-left: 5px solid #6a5acd;
+    transition: 0.3s ease;
+    background: #fff;
+    border-radius: 8px;
+}
+
+#projects .card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0px 10px 20px rgba(0,0,0,0.2);
+}
+
+/* Card Title */
+#projects .card-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Card Text */
+#projects .card-text {
+    font-size: 15px;
+    color: #444;
+    line-height: 1.5;
+}
+
+/* Mobile Responsive Fix */
+@media (max-width: 768px) {
+    #projects .card {
+        margin-bottom: 20px;
+    }
+}
+
+/* Skills Section */
+#skills {
+    margin-top: 40px;
+}
+
+/* Section Title */
+#skills .section-title {
+    border-left: 5px solid #6a5acd;
+    padding-left: 10px;
+    margin-bottom: 25px;
+    font-weight: bold;
+    color: #222;
+}
+
+/* Skill Badges */
+.skills-badge {
+    padding: 10px 18px;
+    font-size: 15px;
+    background: #6a5acd;
+    color: white;
+    border-radius: 30px;
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+    display: inline-block;
+    box-shadow: 0px 5px 12px rgba(0,0,0,0.15);
+    cursor: default;
+}
+
+/* Hover Effect */
+.skills-badge:hover {
+    background: #483d8b;
+    transform: translateY(-5px);
+    box-shadow: 0px 8px 18px rgba(0,0,0,0.2);
+}
+
+/* Skills Container */
+.skills-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+/* Small Screen Fix */
+@media (max-width: 600px) {
+    .skills-badge {
+        font-size: 14px;
+        padding: 8px 15px;
+    }
+}
+
+#contact a {
+    color: #6a5acd;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+    color: #483d8b;
+}
+
+
+
+
+        /* Section Titles */
+        h2.section-title {
+            border-left: 5px solid #6a5acd;
+            padding-left: 10px;
+            margin-bottom: 25px;
+            font-weight: bold;
+        }
+
+        /* Resume Button */
+        .resume-btn {
+            background: black;
+            color: white;
+            padding: 12px 20px;
+            border-radius: 6px;
+            text-decoration: none;
+        }
+
+        .resume-btn:hover {
+            background: #6a5acd;
+            color: white;
+        }
+    
